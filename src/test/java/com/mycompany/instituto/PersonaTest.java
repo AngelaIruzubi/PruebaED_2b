@@ -82,4 +82,22 @@ public class PersonaTest {
         assertTrue(persona2.compareTo(persona3) < 0, "persona2 debe ser menor que persona3 según el NIF");
     }
     
+    
+        @Test
+    public void testToString() {
+        // Crear una persona con nombre y apellidos
+        Persona persona = new Persona(12345678, "Juan Perez", 'H', 1, 1, 2000);
+
+        // Verificar que el método toString devuelve el formato esperado
+        String expected = "12345678-T\tJuan\tPerez\t\t" + persona.getEdad();
+        assertEquals(expected, persona.toString(), "El formato de toString no es correcto");
+
+        // Crear una persona con un solo nombre
+        Persona persona2 = new Persona(87654321, "Ana", 'M', 2, 2, 2001);
+
+        // Verificar que el método toString devuelve el formato esperado
+        String expected2 = "87654321-W\tAna\t\t\t" + persona2.getEdad();
+        assertEquals(expected2, persona2.toString(), "El formato de toString no es correcto");
+    }
+    
 }
