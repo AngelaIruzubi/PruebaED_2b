@@ -1,0 +1,41 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+--release
+22
+-sourcepath
+'C:/Users/PC/Documents/NetBeansProjects/Instituto/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/PC/Documents/NetBeansProjects/Instituto/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Instituto 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'Instituto 1.0-SNAPSHOT API'
+com.mycompany.instituto
+C:\Users\PC\Documents\NetBeansProjects\Instituto\src\main\java = 1741939581198
+C:\Users\PC\Documents\NetBeansProjects\Instituto\target\reports\apidocs\allclasses-index.html = 1741942992560
+C:\Users\PC\Documents\NetBeansProjects\Instituto\target\reports\apidocs\allpackages-index.html = 1741942992566
+C:\Users\PC\Documents\NetBeansProjects\Instituto\target\reports\apidocs\element-list = 1741942992447
+C:\Users\PC\Documents\NetBeansProjects\Instituto\target\reports\apidocs\help-doc.html = 1741942992647
+C:\Users\PC\Documents\NetBeansProjects\Instituto\target\reports\apidocs\index-all.html = 1741942992628
+C:\Users\PC\Documents\NetBeansProjects\Instituto\target\reports\apidocs\index.html = 1741942992635
+C:\Users\PC\Documents\NetBeansProjects\Instituto\target\reports\apidocs\member-search-index.js = 1741942992576
+C:\Users\PC\Documents\NetBeansProjects\Instituto\target\reports\apidocs\module-search-index.js = 1741942992568
+C:\Users\PC\Documents\NetBeansProjects\Instituto\target\reports\apidocs\overview-tree.html = 1741942992534
+C:\Users\PC\Documents\NetBeansProjects\Instituto\target\reports\apidocs\package-search-index.js = 1741942992570
+C:\Users\PC\Documents\NetBeansProjects\Instituto\target\reports\apidocs\search.html = 1741942992632
+C:\Users\PC\Documents\NetBeansProjects\Instituto\target\reports\apidocs\tag-search-index.js = 1741942992578
+C:\Users\PC\Documents\NetBeansProjects\Instituto\target\reports\apidocs\type-search-index.js = 1741942992573
