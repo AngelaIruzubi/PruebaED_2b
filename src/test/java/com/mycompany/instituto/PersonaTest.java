@@ -66,4 +66,20 @@ public class PersonaTest {
         assertFalse(persona1.equals(persona3), "Las personas con NIF diferente no deben ser iguales");
     }
     
+        @Test
+    public void testCompareTo() {
+        // Crear dos personas con NIFs diferentes
+        Persona persona1 = new Persona(12345678, "Juan", 'H', 1, 1, 2000);
+        Persona persona2 = new Persona(87654321, "Ana", 'M', 2, 2, 2001);
+
+        // Verificar que persona1 es "menor" que persona2 (comparación por NIF)
+        assertTrue(persona1.compareTo(persona2) < 0, "persona1 debe ser menor que persona2 según el NIF");
+
+        // Crear una tercera persona con un NIF mayor que persona2
+        Persona persona3 = new Persona(98765432, "Carlos", 'H', 3, 3, 2002);
+
+        // Verificar que persona2 es "menor" que persona3 (comparación por NIF)
+        assertTrue(persona2.compareTo(persona3) < 0, "persona2 debe ser menor que persona3 según el NIF");
+    }
+    
 }
